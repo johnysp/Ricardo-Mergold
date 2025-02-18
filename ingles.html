@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta De Presentación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4a9efd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 90px;
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .logo {
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        .link {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+            font-size: 18px;
+
+        }
+        .link1 {
+            display: block;
+            background-color: #f553df;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+            font-size: 18px;
+        }
+        .link2 {
+            display: block;
+            background-color: #2370ff;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+            font-size: 18px;
+        }
+        
+        .link:hover {
+            background-color: #45a049;
+        }
+        .flag-image {
+            width: 40px; /* Ancho de la imagen */
+            height: 30px; /* Alto de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="1.png" alt="Logo Empresa" class="logo">
+        <p>Sale of land, houses, lodging, and car rentals..</p>
+        <P> Welcome, Ricardo Mergold serves you. </P>
+        <a href="https://www.instagram.com/ricardo.mergold?igsh=MW92cGc2Z2NzdnplOA%3D%3D&utm_source=qr" class="link1">Instagram</a>
+        <a href="https://wa.me/9581379219" class="link">WhatsApp</a>
+        <a href="index.html">
+            <img src="mexico.webp" alt="Inglés" class="flag-image">
+        </a>
+    </div>
+</body>
+</html>
